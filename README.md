@@ -12,6 +12,10 @@
 * screen
 
 * stress
+Пример: загрузка 4 ядер на минут
+\```
+sudo stress -c 4 -t 5m
+\```
 
 * ssh
 
