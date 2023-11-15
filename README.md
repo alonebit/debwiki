@@ -2,7 +2,7 @@
 
 Версия: Debian 12 (Bookworm)
 
-* Минимальная установка 
+* Автоматическая установка (Automating Linux Installations)
 * Сборки
 * Пакеты
 
