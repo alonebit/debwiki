@@ -1,22 +1,33 @@
 # Debian Wiki
 
+Версия: Debian 12 (Bookworm)
+
 * Минимальная установка 
 * Сборки
 * Пакеты
-
-> [!NOTE]
-> Все на свой страх и риск
 
 ## Пакеты
 
 * screen
 
-* stress
+* ### stress
 
-Пример: загрузка 4 ядер на минут
+***Установка***
 
-```bash
-sudo stress -c 4 -t 5m
+```sh
+sudo apt install stress
+```
+
+*Пример: загрузка 4 ядер на 60 секунд*
+
+```sh
+sudo stress --cpu 4 --timeout 60
+```
+
+*Пример: загрузка 2 ядер на 5 минут*
+
+```sh
+sudo stress -c 2 -t 5m
 ```
 
 * ssh
