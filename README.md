@@ -12,8 +12,10 @@
 * screen
 
 * stress
+
 Пример: загрузка 4 ядер на минут
-```
+
+```bash
 sudo stress -c 4 -t 5m
 ```
 
